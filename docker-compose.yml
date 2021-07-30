@@ -24,7 +24,7 @@ services:
         condition: on-failure
 
   influxdb:
-    image: influxdb
+    image: influxdb:1.8
     ports:
       - "8086"
     volumes:
